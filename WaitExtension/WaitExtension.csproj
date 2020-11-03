@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>WaitExtesion</PackageId>
+    <Authors>Thiagotar</Authors>
+    <Company>TAR</Company>
+    <Description>Extension of Selenium WebDriver.</Description>
+    <RepositoryUrl>https://github.com/thiagotar/WaitExtension</RepositoryUrl>
+    <PackageTags>Wait, Selenium,</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseUrl>https://licenses.nuget.org/MIT</PackageLicenseUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+  </ItemGroup>
+
+</Project>
